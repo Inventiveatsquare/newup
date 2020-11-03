@@ -1,0 +1,79 @@
+{"frames": {
+
+"capguy_01.png":
+{
+	"frame": {"x":164,"y":1,"w":158,"h":316},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":3,"w":158,"h":316},
+	"sourceSize": {"w":187,"h":324}
+},
+"capguy_02.png":
+{
+	"frame": {"x":622,"y":155,"w":168,"h":303},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":168,"h":303},
+	"sourceSize": {"w":187,"h":324}
+},
+"capguy_03.png":
+{
+	"frame": {"x":609,"y":1,"w":152,"h":307},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":2,"w":152,"h":307},
+	"sourceSize": {"w":187,"h":324}
+},
+"capguy_04.png":
+{
+	"frame": {"x":314,"y":319,"w":141,"h":306},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":1,"w":141,"h":306},
+	"sourceSize": {"w":187,"h":324}
+},
+"capguy_05.png":
+{
+	"frame": {"x":1,"y":322,"w":139,"h":311},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":3,"w":139,"h":311},
+	"sourceSize": {"w":187,"h":324}
+},
+"capguy_06.png":
+{
+	"frame": {"x":472,"y":1,"w":135,"h":311},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":8,"w":135,"h":311},
+	"sourceSize": {"w":187,"h":324}
+},
+"capguy_07.png":
+{
+	"frame": {"x":324,"y":1,"w":146,"h":314},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":2,"w":146,"h":314},
+	"sourceSize": {"w":187,"h":324}
+},
+"capguy_08.png":
+{
+	"frame": {"x":1,"y":1,"w":161,"h":319},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":1,"w":161,"h":319},
+	"sourceSize": {"w":187,"h":324}
+}},
+"animations": {
+	"capguy": ["capguy_01.png","capguy_02.png","capguy_03.png","capguy_04.png","capguy_05.png","capguy_06.png","capguy_07.png","capguy_08.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ani.png",
+	"format": "RGBA8888",
+	"size": {"w":917,"h":462},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5cec01418c3b86774b55ebe3affb1d3a:c753a96492a5e00edc86f5cacd23aabd:992db6b41427fecfd46017ce32895060$"
+}
+}
