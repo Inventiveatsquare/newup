@@ -1,0 +1,87 @@
+{"frames": {
+
+"capguy_01.png":
+{
+	"frame": {"x":0,"y":0,"w":187,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":324},
+	"sourceSize": {"w":187,"h":324},
+	"anchor": {"x":0.497326,"y":1.01235}
+},
+"capguy_02.png":
+{
+	"frame": {"x":187,"y":0,"w":187,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":324},
+	"sourceSize": {"w":187,"h":324},
+	"anchor": {"x":0.481283,"y":1.00309}
+},
+"capguy_03.png":
+{
+	"frame": {"x":374,"y":0,"w":187,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":324},
+	"sourceSize": {"w":187,"h":324},
+	"anchor": {"x":0.454545,"y":0.996914}
+},
+"capguy_04.png":
+{
+	"frame": {"x":561,"y":0,"w":187,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":324},
+	"sourceSize": {"w":187,"h":324},
+	"anchor": {"x":0.454545,"y":1.01235}
+},
+"capguy_05.png":
+{
+	"frame": {"x":748,"y":0,"w":187,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":324},
+	"sourceSize": {"w":187,"h":324},
+	"anchor": {"x":0.497326,"y":1.01852}
+},
+"capguy_06.png":
+{
+	"frame": {"x":935,"y":0,"w":187,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":324},
+	"sourceSize": {"w":187,"h":324},
+	"anchor": {"x":0.497326,"y":1.01852}
+},
+"capguy_07.png":
+{
+	"frame": {"x":1122,"y":0,"w":187,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":324},
+	"sourceSize": {"w":187,"h":324},
+	"anchor": {"x":0.486631,"y":1.01235}
+},
+"capguy_08.png":
+{
+	"frame": {"x":1309,"y":0,"w":187,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":324},
+	"sourceSize": {"w":187,"h":324},
+	"anchor": {"x":0.497326,"y":1.01852}
+}},
+"animations": {
+	"capguy": ["capguy_01.png","capguy_02.png","capguy_03.png","capguy_04.png","capguy_05.png","capguy_06.png","capguy_07.png","capguy_08.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ani.png",
+	"format": "RGBA8888",
+	"size": {"w":1496,"h":324},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7cccc17f055ba8c7ffc0a71c3d488201:c753a96492a5e00edc86f5cacd23aabd:992db6b41427fecfd46017ce32895060$"
+}
+}

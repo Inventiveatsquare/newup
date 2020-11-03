@@ -18,30 +18,31 @@ const app = new Application({
 })
 document.body.appendChild(app.view)
 
-
-	
 	
 
 app.loader.add('logo', './assets/logo.png')
-app.loader.add('bunny', './assets/bunny.png')
-// app.loader.add('bunny', './assets/bunny.json')
+// app.loader.add('bunny', './assets/bunny.png')
+ app.loader.add('bunny', './assets/ani.json')
 app.loader.load(() => {
-	const sprite1 = Sprite.from('bunny')
-	sprite1.anchor.set(0.5)
+//const sprite1 = Sprite.from('bunny')
+	//sprite1.anchor.set(0.5)
 	
 	const sprite = Sprite.from('logo')
-	sprite.anchor.set(0.5)
-	
+    sprite.anchor.set(0.5)
+    
+    const sprite1 = Sprite.from('bunny')
+    console.log(sprite1)
 	// We want to rotate our sprite relative to the center, so 0.5
 	app.stage.addChild(sprite)
-	app.stage.addChild(sprite1)
+	//app.stage.addChild(sprite1)
 	// Position the sprite at the center of the stage
 	sprite.x = app.screen.width * 0.5
 	sprite.y = app.screen.height * 0.5
 
 	// Put the rotating function into the update loop
 	app.ticker.add(delta => {
-		sprite.rotation += 0.02 * delta
+     
+		sprite.rotation += 0.1 * delta
 		sprite1.rotation += 0.02 * delta
 	})
 })
